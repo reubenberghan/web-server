@@ -1,12 +1,12 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic web server using Node.js and Express.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Reuben Berghan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3"
