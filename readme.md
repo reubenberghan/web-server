@@ -9,6 +9,8 @@ Uses two custom middleware functions:
 
 See the code in action at [https://berghan-web-server.herokuapp.com](https://berghan-web-server.herokuapp.com)
 
+---
+
 ### To do
 
 - [ ] Add link to /about route
