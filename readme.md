@@ -1,6 +1,6 @@
 # Basic Web Server
 
-Using Node.js and Express.js start up a basic server serving some static HTML.
+Using Node.js and Express start up a basic server serving some static HTML.
 
 Uses two custom middleware functions:
 
