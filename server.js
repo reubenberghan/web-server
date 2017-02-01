@@ -1,15 +1,14 @@
-var express = require('express');
-var app = express();
-var PORT = process.env.PORT || 3000;
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-var middleware = require('./middleware');
+const logger = require('./middleware/logger');
+const requireAuthentication = require('./middleware/require-Authentication');
 
-app.use(middleware.logger);
+app.use(logger);
 
-app.get('/about', middleware.requireAuthentication, function(req, res) {
-	res.send('About us!');
-});
+app.get('/about', requireAuthentication, (req, res) => res.send('About us!'));
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(PORT, function() { console.log('Express server started on port: ' + PORT); });
+app.listen(PORT, () => console.log('Express server started on port: ' + PORT));

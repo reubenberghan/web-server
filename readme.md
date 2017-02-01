@@ -11,7 +11,7 @@ See the code in action at:  [https://berghan-web-server.herokuapp.com](https://b
 
 ### To do
 
-- [ ] Refactor for ES2015
+- [x] Refactor for ES2015
 - [ ] Add link to /about route
-- [ ] Add CSS (Bootstrap / Foundation)
+- [x] Add CSS (Bootstrap / Foundation)
 - [ ] Flesh out requireAuthentication() middleware logic
