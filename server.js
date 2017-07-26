@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const logger = require('./middleware/logger');
-const requireAuthentication = require('./middleware/require-Authentication');
+const requireAuthentication = require('./middleware/require-authentication');
 
 app.use(logger);
 
